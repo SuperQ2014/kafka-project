@@ -6,14 +6,16 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
 
+import kafka.serializer.StringEncoder;
+
 public class SimpleProducer {
 
 	public static void main(String[] args) {
 		Properties prop = new Properties();
 //		prop.put("metadata.broker.list", "172.16.89.128:9092");
 		prop.put("bootstrap.servers", "172.16.89.128:9092,172.16.89.129:9092,172.16.89.130:9092");
-		prop.put("request.required.acks", 1);
-		prop.put("serializer.class", "kafka.serializer.StringEncoder");
+		prop.put("request.required.acks", "1");		//unknown config
+		prop.put("serializer.class", StringSerializer.class.getName());		//unknown config
 		prop.put("key.serializer", StringSerializer.class.getName());
 		prop.put("value.serializer", StringSerializer.class.getName());
 		
