@@ -1,0 +1,267 @@
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Property auto.commit.interval.ms is overridden to 1000
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Property group.id is overridden to tao-test-group
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Property zookeeper.connect is overridden to 172.16.89.128:2181
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Property zookeeper.session.timeout.ms is overridden to 400
+2016-03-29 21:52:45 INFO  VerifiableProperties:68 - Property zookeeper.sync.time.ms is overridden to 200
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Connecting to zookeeper instance at 172.16.89.128:2181
+2016-03-29 21:52:45 INFO  ZkEventThread:64 - Starting ZkClient event thread.
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:host.name=VKOUKA8KJY4JRFQ
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_71
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_71\jre
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.class.path=E:\workspace\kafka-project\highlevelconsumer\target\classes;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka_2.10\0.8.2.2\kafka_2.10-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka-clients\0.8.2.2\kafka-clients-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;C:\Users\Administrator\.m2\repository\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;C:\Users\Administrator\.m2\repository\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;C:\Users\Administrator\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.3\zkclient-0.3.jar
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\gradle-2.12\bin;C:\eclipse-java-mars-1-win32-x86_64\eclipse;;.
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:os.name=Windows 7
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:os.arch=amd64
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:os.version=6.1
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:user.name=Administrator
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:user.home=C:\Users\Administrator
+2016-03-29 21:52:45 INFO  ZooKeeper:100 - Client environment:user.dir=E:\workspace\kafka-project\highlevelconsumer
+2016-03-29 21:52:45 INFO  ZooKeeper:438 - Initiating client connection, connectString=172.16.89.128:2181 sessionTimeout=400 watcher=org.I0Itec.zkclient.ZkClient@77be656f
+2016-03-29 21:52:45 INFO  ClientCnxn:975 - Opening socket connection to server 172.16.89.128/172.16.89.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-03-29 21:52:45 INFO  ClientCnxn:852 - Socket connection established to 172.16.89.128/172.16.89.128:2181, initiating session
+2016-03-29 21:52:45 INFO  ClientCnxn:1235 - Session establishment complete on server 172.16.89.128/172.16.89.128:2181, sessionid = 0x253114ebf6a1312, negotiated timeout = 6000
+2016-03-29 21:52:45 INFO  ZkClient:449 - zookeeper state changed (SyncConnected)
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], starting auto committer every 1000 ms
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], begin registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b in ZK
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], end registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b in ZK
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], starting watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b
+2016-03-29 21:52:45 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], begin rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b try #0
+2016-03-29 21:52:46 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] Stopping leader finder thread
+2016-03-29 21:52:46 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] Stopping all fetchers
+2016-03-29 21:52:46 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] All connections stopped
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Cleared all relevant queues for this fetcher
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Cleared the data chunks in all the consumer message iterators
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Committing all offsets after clearing the fetcher queues
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Releasing partition ownership
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b rebalancing the following partitions: ArrayBuffer(0, 1, 2, 3, 4) for topic test-topic-tao with consumers: List(tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0, tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-1, tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-2)
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-2 attempting to claim partition 4
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-1 attempting to claim partition 2
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-1 attempting to claim partition 3
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0 attempting to claim partition 0
+2016-03-29 21:52:46 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0 attempting to claim partition 1
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0 successfully owned partition 0 for topic test-topic-tao
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0 successfully owned partition 1 for topic test-topic-tao
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-1 successfully owned partition 2 for topic test-topic-tao
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-2 successfully owned partition 4 for topic test-topic-tao
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-1 successfully owned partition 3 for topic test-topic-tao
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b selected partitions : test-topic-tao:0: fetched offset = 1000: consumed offset = 1000,test-topic-tao:1: fetched offset = 1000: consumed offset = 1000,test-topic-tao:2: fetched offset = 1001: consumed offset = 1001,test-topic-tao:3: fetched offset = 1000: consumed offset = 1000,test-topic-tao:4: fetched offset = 1000: consumed offset = 1000
+2016-03-29 21:52:46 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-leader-finder-thread], Starting 
+2016-03-29 21:52:46 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], end rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b try #0
+2016-03-29 21:52:46 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 21:52:46 INFO  VerifiableProperties:68 - Property client.id is overridden to tao-test-group
+2016-03-29 21:52:46 INFO  VerifiableProperties:68 - Property metadata.broker.list is overridden to 172.16.89.128:9092,172.16.89.129:9092,172.16.89.130:9092
+2016-03-29 21:52:46 INFO  VerifiableProperties:68 - Property request.timeout.ms is overridden to 30000
+2016-03-29 21:52:46 INFO  ClientUtils$:68 - Fetching metadata from broker id:0,host:172.16.89.128,port:9092 with correlation id 0 for 1 topic(s) Set(test-topic-tao)
+2016-03-29 21:52:46 INFO  SyncProducer:68 - Connected to 172.16.89.128:9092 for producing
+2016-03-29 21:52:46 INFO  SyncProducer:68 - Disconnecting from 172.16.89.128:9092
+2016-03-29 21:52:46 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-2], Starting 
+2016-03-29 21:52:46 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-1], Starting 
+2016-03-29 21:52:46 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] Added fetcher for partitions ArrayBuffer([[test-topic-tao,0], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] , [[test-topic-tao,1], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,2], initOffset 1001 to broker id:2,host:172.16.89.130,port:9092] , [[test-topic-tao,4], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,3], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] )
+2016-03-29 21:52:46 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-0], Starting 
+2016-03-29 21:52:56 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], ZKConsumerConnector shutting down
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] Stopping leader finder thread
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-leader-finder-thread], Shutting down
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-leader-finder-thread], Stopped 
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-leader-finder-thread], Shutdown completed
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] Stopping all fetchers
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-2], Shutting down
+2016-03-29 21:52:56 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-2], Stopped 
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-2], Shutdown completed
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-0], Shutting down
+2016-03-29 21:52:56 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-0], Stopped 
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-0], Shutdown completed
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-1], Shutting down
+2016-03-29 21:52:56 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-1], Stopped 
+2016-03-29 21:52:56 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b-0-1], Shutdown completed
+2016-03-29 21:52:56 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459259565801] All connections stopped
+2016-03-29 21:52:56 INFO  ZkEventThread:82 - Terminate ZkClient event thread.
+2016-03-29 21:52:56 INFO  ZooKeeper:684 - Session: 0x253114ebf6a1312 closed
+2016-03-29 21:52:56 INFO  ClientCnxn:512 - EventThread shut down
+2016-03-29 21:52:56 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], ZKConsumerConnector shutdown completed in 40 ms
+2016-03-29 21:52:56 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b], stopping watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459259565685-e8c7f14b
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Property auto.commit.interval.ms is overridden to 1000
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Property group.id is overridden to tao-test-group
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Property zookeeper.connect is overridden to 172.16.89.128:2181
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Property zookeeper.session.timeout.ms is overridden to 400
+2016-03-29 22:05:03 INFO  VerifiableProperties:68 - Property zookeeper.sync.time.ms is overridden to 200
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Connecting to zookeeper instance at 172.16.89.128:2181
+2016-03-29 22:05:03 INFO  ZkEventThread:64 - Starting ZkClient event thread.
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:host.name=VKOUKA8KJY4JRFQ
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_71
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_71\jre
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.class.path=E:\workspace\kafka-project\highlevelconsumer\target\classes;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka_2.10\0.8.2.2\kafka_2.10-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka-clients\0.8.2.2\kafka-clients-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;C:\Users\Administrator\.m2\repository\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;C:\Users\Administrator\.m2\repository\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;C:\Users\Administrator\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.3\zkclient-0.3.jar
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\gradle-2.12\bin;C:\eclipse-java-mars-1-win32-x86_64\eclipse;;.
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:os.name=Windows 7
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:os.arch=amd64
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:os.version=6.1
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:user.name=Administrator
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:user.home=C:\Users\Administrator
+2016-03-29 22:05:03 INFO  ZooKeeper:100 - Client environment:user.dir=E:\workspace\kafka-project\highlevelconsumer
+2016-03-29 22:05:03 INFO  ZooKeeper:438 - Initiating client connection, connectString=172.16.89.128:2181 sessionTimeout=400 watcher=org.I0Itec.zkclient.ZkClient@77be656f
+2016-03-29 22:05:03 INFO  ClientCnxn:975 - Opening socket connection to server 172.16.89.128/172.16.89.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-03-29 22:05:03 INFO  ClientCnxn:852 - Socket connection established to 172.16.89.128/172.16.89.128:2181, initiating session
+2016-03-29 22:05:03 INFO  ClientCnxn:1235 - Session establishment complete on server 172.16.89.128/172.16.89.128:2181, sessionid = 0x253114ebf6a1314, negotiated timeout = 6000
+2016-03-29 22:05:03 INFO  ZkClient:449 - zookeeper state changed (SyncConnected)
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], starting auto committer every 1000 ms
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], begin registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 in ZK
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], end registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 in ZK
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], starting watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], begin rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 try #0
+2016-03-29 22:05:03 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] Stopping leader finder thread
+2016-03-29 22:05:03 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] Stopping all fetchers
+2016-03-29 22:05:03 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] All connections stopped
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Cleared all relevant queues for this fetcher
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Cleared the data chunks in all the consumer message iterators
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Committing all offsets after clearing the fetcher queues
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Releasing partition ownership
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 rebalancing the following partitions: ArrayBuffer(0, 1, 2, 3, 4) for topic test-topic-tao with consumers: List(tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0, tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-1, tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-2)
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-1 attempting to claim partition 2
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-1 attempting to claim partition 3
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-2 attempting to claim partition 4
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0 attempting to claim partition 0
+2016-03-29 22:05:03 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0 attempting to claim partition 1
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0 successfully owned partition 0 for topic test-topic-tao
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0 successfully owned partition 1 for topic test-topic-tao
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-1 successfully owned partition 2 for topic test-topic-tao
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-2 successfully owned partition 4 for topic test-topic-tao
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-1 successfully owned partition 3 for topic test-topic-tao
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 selected partitions : test-topic-tao:0: fetched offset = 1000: consumed offset = 1000,test-topic-tao:1: fetched offset = 1000: consumed offset = 1000,test-topic-tao:2: fetched offset = 1001: consumed offset = 1001,test-topic-tao:3: fetched offset = 1000: consumed offset = 1000,test-topic-tao:4: fetched offset = 1000: consumed offset = 1000
+2016-03-29 22:05:03 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-leader-finder-thread], Starting 
+2016-03-29 22:05:03 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], end rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9 try #0
+2016-03-29 22:05:04 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 22:05:04 INFO  VerifiableProperties:68 - Property client.id is overridden to tao-test-group
+2016-03-29 22:05:04 INFO  VerifiableProperties:68 - Property metadata.broker.list is overridden to 172.16.89.128:9092,172.16.89.129:9092,172.16.89.130:9092
+2016-03-29 22:05:04 INFO  VerifiableProperties:68 - Property request.timeout.ms is overridden to 30000
+2016-03-29 22:05:04 INFO  ClientUtils$:68 - Fetching metadata from broker id:2,host:172.16.89.130,port:9092 with correlation id 0 for 1 topic(s) Set(test-topic-tao)
+2016-03-29 22:05:04 INFO  SyncProducer:68 - Connected to 172.16.89.130:9092 for producing
+2016-03-29 22:05:04 INFO  SyncProducer:68 - Disconnecting from 172.16.89.130:9092
+2016-03-29 22:05:04 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-2], Starting 
+2016-03-29 22:05:04 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] Added fetcher for partitions ArrayBuffer([[test-topic-tao,0], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] , [[test-topic-tao,1], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,2], initOffset 1001 to broker id:2,host:172.16.89.130,port:9092] , [[test-topic-tao,4], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,3], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] )
+2016-03-29 22:05:04 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-0], Starting 
+2016-03-29 22:05:04 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-1], Starting 
+2016-03-29 22:05:13 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], ZKConsumerConnector shutting down
+2016-03-29 22:05:13 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] Stopping leader finder thread
+2016-03-29 22:05:14 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-leader-finder-thread], Shutting down
+2016-03-29 22:05:14 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-leader-finder-thread], Stopped 
+2016-03-29 22:05:14 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-leader-finder-thread], Shutdown completed
+2016-03-29 22:05:14 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] Stopping all fetchers
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-2], Shutting down
+2016-03-29 22:05:14 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-2], Stopped 
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-2], Shutdown completed
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-0], Shutting down
+2016-03-29 22:05:14 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-0], Stopped 
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-0], Shutdown completed
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-1], Shutting down
+2016-03-29 22:05:14 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-1], Stopped 
+2016-03-29 22:05:14 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9-0-1], Shutdown completed
+2016-03-29 22:05:14 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260303404] All connections stopped
+2016-03-29 22:05:14 INFO  ZkEventThread:82 - Terminate ZkClient event thread.
+2016-03-29 22:05:14 INFO  ZooKeeper:684 - Session: 0x253114ebf6a1314 closed
+2016-03-29 22:05:14 INFO  ClientCnxn:512 - EventThread shut down
+2016-03-29 22:05:14 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], ZKConsumerConnector shutdown completed in 43 ms
+2016-03-29 22:05:14 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9], stopping watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260303287-4e1965b9
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Property auto.commit.interval.ms is overridden to 1000
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Property group.id is overridden to tao-test-group
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Property zookeeper.connect is overridden to 172.16.89.128:2181
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Property zookeeper.session.timeout.ms is overridden to 400
+2016-03-29 22:07:47 INFO  VerifiableProperties:68 - Property zookeeper.sync.time.ms is overridden to 200
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Connecting to zookeeper instance at 172.16.89.128:2181
+2016-03-29 22:07:47 INFO  ZkEventThread:64 - Starting ZkClient event thread.
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:host.name=VKOUKA8KJY4JRFQ
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.version=1.8.0_71
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.home=C:\Program Files\Java\jdk1.8.0_71\jre
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.class.path=E:\workspace\kafka-project\highlevelconsumer\target\classes;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka_2.10\0.8.2.2\kafka_2.10-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\apache\kafka\kafka-clients\0.8.2.2\kafka-clients-0.8.2.2.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;C:\Users\Administrator\.m2\repository\org\xerial\snappy\snappy-java\1.1.1.7\snappy-java-1.1.1.7.jar;C:\Users\Administrator\.m2\repository\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;C:\Users\Administrator\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.3\zkclient-0.3.jar
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_71/bin/../jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\gradle-2.12\bin;C:\eclipse-java-mars-1-win32-x86_64\eclipse;;.
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:java.compiler=<NA>
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:os.name=Windows 7
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:os.arch=amd64
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:os.version=6.1
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:user.name=Administrator
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:user.home=C:\Users\Administrator
+2016-03-29 22:07:47 INFO  ZooKeeper:100 - Client environment:user.dir=E:\workspace\kafka-project\highlevelconsumer
+2016-03-29 22:07:47 INFO  ZooKeeper:438 - Initiating client connection, connectString=172.16.89.128:2181 sessionTimeout=400 watcher=org.I0Itec.zkclient.ZkClient@77be656f
+2016-03-29 22:07:47 INFO  ClientCnxn:975 - Opening socket connection to server 172.16.89.128/172.16.89.128:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-03-29 22:07:47 INFO  ClientCnxn:852 - Socket connection established to 172.16.89.128/172.16.89.128:2181, initiating session
+2016-03-29 22:07:47 INFO  ClientCnxn:1235 - Session establishment complete on server 172.16.89.128/172.16.89.128:2181, sessionid = 0x253114ebf6a1315, negotiated timeout = 6000
+2016-03-29 22:07:47 INFO  ZkClient:449 - zookeeper state changed (SyncConnected)
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], starting auto committer every 1000 ms
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], begin registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 in ZK
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], end registering consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 in ZK
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], starting watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], begin rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 try #0
+2016-03-29 22:07:47 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] Stopping leader finder thread
+2016-03-29 22:07:47 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] Stopping all fetchers
+2016-03-29 22:07:47 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] All connections stopped
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Cleared all relevant queues for this fetcher
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Cleared the data chunks in all the consumer message iterators
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Committing all offsets after clearing the fetcher queues
+2016-03-29 22:07:47 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Releasing partition ownership
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 rebalancing the following partitions: ArrayBuffer(0, 1, 2, 3, 4) for topic test-topic-tao with consumers: List(tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0, tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-1, tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-2)
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-2 attempting to claim partition 4
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-1 attempting to claim partition 2
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-1 attempting to claim partition 3
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0 attempting to claim partition 0
+2016-03-29 22:07:47 INFO  RangeAssignor:68 - tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0 attempting to claim partition 1
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0 successfully owned partition 0 for topic test-topic-tao
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0 successfully owned partition 1 for topic test-topic-tao
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-1 successfully owned partition 2 for topic test-topic-tao
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-2 successfully owned partition 4 for topic test-topic-tao
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-1 successfully owned partition 3 for topic test-topic-tao
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], Consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 selected partitions : test-topic-tao:0: fetched offset = 1000: consumed offset = 1000,test-topic-tao:1: fetched offset = 1000: consumed offset = 1000,test-topic-tao:2: fetched offset = 1001: consumed offset = 1001,test-topic-tao:3: fetched offset = 1000: consumed offset = 1000,test-topic-tao:4: fetched offset = 1000: consumed offset = 1000
+2016-03-29 22:07:48 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-leader-finder-thread], Starting 
+2016-03-29 22:07:48 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], end rebalancing consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69 try #0
+2016-03-29 22:07:48 INFO  VerifiableProperties:68 - Verifying properties
+2016-03-29 22:07:48 INFO  VerifiableProperties:68 - Property client.id is overridden to tao-test-group
+2016-03-29 22:07:48 INFO  VerifiableProperties:68 - Property metadata.broker.list is overridden to 172.16.89.128:9092,172.16.89.129:9092,172.16.89.130:9092
+2016-03-29 22:07:48 INFO  VerifiableProperties:68 - Property request.timeout.ms is overridden to 30000
+2016-03-29 22:07:48 INFO  ClientUtils$:68 - Fetching metadata from broker id:1,host:172.16.89.129,port:9092 with correlation id 0 for 1 topic(s) Set(test-topic-tao)
+2016-03-29 22:07:48 INFO  SyncProducer:68 - Connected to 172.16.89.129:9092 for producing
+2016-03-29 22:07:48 INFO  SyncProducer:68 - Disconnecting from 172.16.89.129:9092
+2016-03-29 22:07:48 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-2], Starting 
+2016-03-29 22:07:48 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] Added fetcher for partitions ArrayBuffer([[test-topic-tao,0], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] , [[test-topic-tao,1], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,2], initOffset 1001 to broker id:2,host:172.16.89.130,port:9092] , [[test-topic-tao,4], initOffset 1000 to broker id:1,host:172.16.89.129,port:9092] , [[test-topic-tao,3], initOffset 1000 to broker id:0,host:172.16.89.128,port:9092] )
+2016-03-29 22:07:48 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-1], Starting 
+2016-03-29 22:07:48 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-0], Starting 
+2016-03-29 22:07:58 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], ZKConsumerConnector shutting down
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] Stopping leader finder thread
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-leader-finder-thread], Shutting down
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-leader-finder-thread], Stopped 
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager$LeaderFinderThread:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-leader-finder-thread], Shutdown completed
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] Stopping all fetchers
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-2], Shutting down
+2016-03-29 22:07:58 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-2], Stopped 
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-2], Shutdown completed
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-0], Shutting down
+2016-03-29 22:07:58 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-0], Stopped 
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-0], Shutdown completed
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-1], Shutting down
+2016-03-29 22:07:58 INFO  SimpleConsumer:68 - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-1], Stopped 
+2016-03-29 22:07:58 INFO  ConsumerFetcherThread:68 - [ConsumerFetcherThread-tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69-0-1], Shutdown completed
+2016-03-29 22:07:58 INFO  ConsumerFetcherManager:68 - [ConsumerFetcherManager-1459260467539] All connections stopped
+2016-03-29 22:07:58 INFO  ZkEventThread:82 - Terminate ZkClient event thread.
+2016-03-29 22:07:58 INFO  ZooKeeper:684 - Session: 0x253114ebf6a1315 closed
+2016-03-29 22:07:58 INFO  ClientCnxn:512 - EventThread shut down
+2016-03-29 22:07:58 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], ZKConsumerConnector shutdown completed in 56 ms
+2016-03-29 22:07:58 INFO  ZookeeperConsumerConnector:68 - [tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69], stopping watcher executor thread for consumer tao-test-group_VKOUKA8KJY4JRFQ-1459260467430-4875ed69
