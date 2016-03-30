@@ -21,8 +21,9 @@ public class SimpleConsumerExample {
 	
 	public static void main(String[] args) {
 		
-		if (args.length <= 5) {
+		if (args.length <= 4) {
 			System.err.println("Please add arguments like: maxReads topic partitionId brokerIP port");
+			return;
 		}
 		
 		SimpleConsumerExample example = new SimpleConsumerExample();

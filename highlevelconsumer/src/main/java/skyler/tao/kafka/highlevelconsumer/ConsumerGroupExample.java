@@ -28,6 +28,7 @@ public class ConsumerGroupExample {
 		
 		if (args.length <= 3) {
 			System.err.println("Please input arguments like: zookeeperip:port groupId topicName threadNum");
+			return;
 		}
 		String zookeeper = args[0];
 		String groupId = args[1];
