@@ -19,6 +19,12 @@ import java.util.Map;
 
 public class SimpleConsumerExample {
 	
+	/*
+	 * maxReads: 20
+	 * partitionId: 3
+	 * consuming 475 messages
+	 * 
+	 */
 	public static void main(String[] args) {
 		
 		if (args.length <= 4) {
@@ -92,10 +98,10 @@ public class SimpleConsumerExample {
 					continue;
 				}
 				readOffset = messageAndOffset.nextOffset();
-				ByteBuffer payload = messageAndOffset.message().payload();
+				ByteBuffer payload = messageAndOffset.message().payload();	//message存储在java.nio.HeapByteBuffer里,通过payload信息获取message
 				
 				byte[] bytes = new byte[payload.limit()];
-				payload.get(bytes);
+				payload.get(bytes);	//message 存储为bytes数组
 				System.out.println(String.valueOf(messageAndOffset.offset()) + ": " + new String(bytes, "UTF-8"));
 				numRead++;
 				a_maxReads--;
